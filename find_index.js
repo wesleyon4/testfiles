@@ -1,9 +1,13 @@
+// function findIndex(array, index) {
+//   if(index > array.length){
+//     return -1;
+//   }
+//   item = array[index] 
+//   return item;
+// }
+
 function findIndex(array, index) {
-  if(index > array.length){
-    return -1;
-  }
-  item = array[index] 
-  return item;
+  return array.indexOf(index)
 }
 
 module.exports = findIndex
