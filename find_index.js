@@ -1,6 +1,9 @@
 function findIndex(array, index) {
-item = array[index] 
-return item;
+  if(index > array.length){
+    return -1;
+  }
+  item = array[index] 
+  return item;
 }
 
 module.exports = findIndex
